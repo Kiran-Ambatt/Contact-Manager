@@ -1,0 +1,41 @@
+import logo from './logo.svg';
+import './App.css';
+
+
+function App() {
+  const obj={title:'My Bio',
+            desc:'As a recent college graduate, I’m excited to launch my IT career. During my studies, I had the opportunity to hone my software development skills, including my programming capabilities'}
+
+            return (
+    <div className="App">
+      <div className='blogcard' >
+     <h1>{obj.title}</h1> 
+     <p><h4>{obj.desc}</h4></p>
+     </div>
+     <div className='blogcard' >
+     <h1>{obj.title}</h1> 
+     <p><h4>{obj.desc}</h4></p>
+     </div>
+     <div className='blogcard' >
+     <h1>{obj.title}</h1> 
+     <p><h4>{obj.desc}</h4></p>
+     </div>
+    </div>
+   
+  );
+}
+
+export default App;
+
+
+
+//CSS
+.blogcard{
+    margin:20px;
+    border-radius:5px;
+    box-shadow:0 2px 5px #ccc;
+    padding: 20px
+}
+.App{
+    text-align: center;
+}
